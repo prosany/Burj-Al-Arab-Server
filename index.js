@@ -6,7 +6,6 @@ const port = 4000;
 const admin = require("firebase-admin");
 const serviceAccount = require("./configs/burj-al-arab-c5535-firebase-adminsdk-50mlx-d58b6c1b2f.json");
 require('dotenv').config();
-console.log(process.env.DB_USER, process.env.DB_PASS, process.env.DB_NAME)
 
 app.use(cors());
 app.use(express.json());
